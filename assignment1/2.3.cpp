@@ -84,7 +84,7 @@ list* solve(list* head)
         {
             pre = cur;
             cur = cur->next;
-        }
+            }
     }
 
     return head;
